@@ -20,8 +20,8 @@ export default function TextForm(props) {
   };
 
   const copyText = () => {
-    const text = document.querySelector("#mytext");
-    navigator.clipboard.writeText(text.value);
+    // const text = document.querySelector("#mytext");
+    navigator.clipboard.writeText(text);
     props.showAlert("Copied to Clipboard successfully","primary")
   };
 
@@ -53,18 +53,19 @@ export default function TextForm(props) {
             }}
           ></textarea>
         </div>
-        <button className="btn btn-warning mx-1" onClick={changeUpperState}>
+        <div className="container">
+        <button disabled={text.length===0} className="btn btn-warning mx-2 my-2" onClick={changeUpperState}>
           Uppercase
         </button>
-        <button className="btn btn-success mx-3" onClick={changeLowerState}>
+        <button disabled={text.length===0} className="btn btn-success mx-2 my-2" onClick={changeLowerState}>
           Lowercase
         </button>
-        <button className="btn btn-danger mx-3" onClick={clearText}>
+        <button disabled={text.length===0} className="btn btn-danger mx-2 my-2" onClick={clearText}>
           clear
         </button>
-        <button className="btn btn-dark mx-3" onClick={copyText}>
+        <button disabled={text.length===0} className="btn btn-dark mx-2 my-2" onClick={copyText}>
           copy
-        </button>
+        </button></div>
       </div>
       <div
         className="container my-3"
@@ -74,12 +75,17 @@ export default function TextForm(props) {
       >
         <h3>Your text summary</h3>
         <p>
-          {text.split(" ").length - 1} words and {text.length} characters
+          {text.split(/s+/).filter((element)=>{
+            return element.length!==0
+          }).length} words and {text.length} characters
         </p>
-        <p>{0.008 * text.split(" ").length} minute in read</p>
+        <p>{0.008 * text.split(/s+/).filter((element)=>{
+            return element.length!==0
+          }).length} minute in read</p>
         <h4>Preview</h4>
         <p>{text.length > 0 ? text : "Enter something in the notes text"}</p>
       </div>
     </>
   );
 }
+

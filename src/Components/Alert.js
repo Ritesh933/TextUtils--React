@@ -7,14 +7,16 @@ function Alert(props) {
   };
 
   return (
-    props.alert && (
+    <div style={{height:"45px"}}>
+      {props.alert && (
       <div
-        className={`alert alert-${props.alert.type} alert-dismissible fade show my-2 mx-2`}
+        className={`alert alert-${props.alert.type} alert-dismissible fade show`}
         role="alert"
       >
         <strong>{capitalized(props.alert.type)}</strong>: {props.alert.msg}
       </div>
-    )
+      )}
+    </div>
   );
 }
 
