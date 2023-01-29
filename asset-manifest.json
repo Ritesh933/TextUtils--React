@@ -1,15 +1,15 @@
 {
-  "main.css": "/TextUtils-React-App/static/css/main.ce816169.chunk.css",
-  "main.js": "/TextUtils-React-App/static/js/main.3f30a01c.chunk.js",
-  "main.js.map": "/TextUtils-React-App/static/js/main.3f30a01c.chunk.js.map",
+  "main.css": "/TextUtils-React-App/static/css/main.8ea312b9.chunk.css",
+  "main.js": "/TextUtils-React-App/static/js/main.2e7129c1.chunk.js",
+  "main.js.map": "/TextUtils-React-App/static/js/main.2e7129c1.chunk.js.map",
   "static/js/1.3f5a8f4c.chunk.js": "/TextUtils-React-App/static/js/1.3f5a8f4c.chunk.js",
   "static/js/1.3f5a8f4c.chunk.js.map": "/TextUtils-React-App/static/js/1.3f5a8f4c.chunk.js.map",
-  "static/js/2.6b966553.chunk.js": "/TextUtils-React-App/static/js/2.6b966553.chunk.js",
-  "static/js/2.6b966553.chunk.js.map": "/TextUtils-React-App/static/js/2.6b966553.chunk.js.map",
+  "static/js/2.4b3c2d27.chunk.js": "/TextUtils-React-App/static/js/2.4b3c2d27.chunk.js",
+  "static/js/2.4b3c2d27.chunk.js.map": "/TextUtils-React-App/static/js/2.4b3c2d27.chunk.js.map",
   "runtime~main.js": "/TextUtils-React-App/static/js/runtime~main.b138fda7.js",
   "runtime~main.js.map": "/TextUtils-React-App/static/js/runtime~main.b138fda7.js.map",
-  "static/css/main.ce816169.chunk.css.map": "/TextUtils-React-App/static/css/main.ce816169.chunk.css.map",
+  "static/css/main.8ea312b9.chunk.css.map": "/TextUtils-React-App/static/css/main.8ea312b9.chunk.css.map",
   "index.html": "/TextUtils-React-App/index.html",
-  "precache-manifest.1e8522c207fdd24b86ccc9c39f915fad.js": "/TextUtils-React-App/precache-manifest.1e8522c207fdd24b86ccc9c39f915fad.js",
+  "precache-manifest.271c053f621b317e2eda53cffe91153e.js": "/TextUtils-React-App/precache-manifest.271c053f621b317e2eda53cffe91153e.js",
   "service-worker.js": "/TextUtils-React-App/service-worker.js"
 }
