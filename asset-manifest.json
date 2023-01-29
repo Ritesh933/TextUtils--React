@@ -1,15 +1,15 @@
 {
-  "main.css": "/TextUtils-React-App/static/css/main.8ea312b9.chunk.css",
-  "main.js": "/TextUtils-React-App/static/js/main.2e7129c1.chunk.js",
-  "main.js.map": "/TextUtils-React-App/static/js/main.2e7129c1.chunk.js.map",
-  "static/js/1.3f5a8f4c.chunk.js": "/TextUtils-React-App/static/js/1.3f5a8f4c.chunk.js",
-  "static/js/1.3f5a8f4c.chunk.js.map": "/TextUtils-React-App/static/js/1.3f5a8f4c.chunk.js.map",
-  "static/js/2.4b3c2d27.chunk.js": "/TextUtils-React-App/static/js/2.4b3c2d27.chunk.js",
-  "static/js/2.4b3c2d27.chunk.js.map": "/TextUtils-React-App/static/js/2.4b3c2d27.chunk.js.map",
-  "runtime~main.js": "/TextUtils-React-App/static/js/runtime~main.b138fda7.js",
-  "runtime~main.js.map": "/TextUtils-React-App/static/js/runtime~main.b138fda7.js.map",
-  "static/css/main.8ea312b9.chunk.css.map": "/TextUtils-React-App/static/css/main.8ea312b9.chunk.css.map",
-  "index.html": "/TextUtils-React-App/index.html",
-  "precache-manifest.271c053f621b317e2eda53cffe91153e.js": "/TextUtils-React-App/precache-manifest.271c053f621b317e2eda53cffe91153e.js",
-  "service-worker.js": "/TextUtils-React-App/service-worker.js"
+  "main.css": "/TextUtils-React-App.github.io/static/css/main.8ea312b9.chunk.css",
+  "main.js": "/TextUtils-React-App.github.io/static/js/main.2e7129c1.chunk.js",
+  "main.js.map": "/TextUtils-React-App.github.io/static/js/main.2e7129c1.chunk.js.map",
+  "static/js/1.3f5a8f4c.chunk.js": "/TextUtils-React-App.github.io/static/js/1.3f5a8f4c.chunk.js",
+  "static/js/1.3f5a8f4c.chunk.js.map": "/TextUtils-React-App.github.io/static/js/1.3f5a8f4c.chunk.js.map",
+  "static/js/2.4b3c2d27.chunk.js": "/TextUtils-React-App.github.io/static/js/2.4b3c2d27.chunk.js",
+  "static/js/2.4b3c2d27.chunk.js.map": "/TextUtils-React-App.github.io/static/js/2.4b3c2d27.chunk.js.map",
+  "runtime~main.js": "/TextUtils-React-App.github.io/static/js/runtime~main.12f11add.js",
+  "runtime~main.js.map": "/TextUtils-React-App.github.io/static/js/runtime~main.12f11add.js.map",
+  "static/css/main.8ea312b9.chunk.css.map": "/TextUtils-React-App.github.io/static/css/main.8ea312b9.chunk.css.map",
+  "index.html": "/TextUtils-React-App.github.io/index.html",
+  "precache-manifest.a4f1141d255993a7d9c81e7ccd67cc7d.js": "/TextUtils-React-App.github.io/precache-manifest.a4f1141d255993a7d9c81e7ccd67cc7d.js",
+  "service-worker.js": "/TextUtils-React-App.github.io/service-worker.js"
 }
